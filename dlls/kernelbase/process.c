@@ -598,7 +598,7 @@ static const WCHAR *hack_append_command_line( const WCHAR *cmd )
         {L"SocialClubHelper.exe", L" --use-gl=swiftshader --in-process-gpu"},
         {L"Montaro\\nw.exe", L" --use-gl=swiftshader"},
         {L"EOSOverlayRenderer-Win64-Shipping.exe", L" --use-gl=swiftshader --in-process-gpu"},
-        {L"altv-webengine.exe", L" --use-gl=swiftshader --in-process-gpu --no-sandbox --disable-gpu-sandbox"},
+        {L"altv-webengine.exe", L" --no-sandbox --disable-gpu-sandbox"},
     };
     unsigned int i;
     char sgi[64];
